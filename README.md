@@ -8,3 +8,5 @@
 2. To run the tests
 - Navigate to project folder
 - Execute command: mvn clean verify
+
+Notes: You may need to run command: 'mvn clean install' before.
