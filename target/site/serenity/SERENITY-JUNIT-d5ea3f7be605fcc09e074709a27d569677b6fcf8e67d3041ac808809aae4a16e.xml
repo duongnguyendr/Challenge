@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.aspire.testscases.RegistrationTest" skipped="0" tests="1" time="12.21" timestamp="2021-03-14 09:50:39"><testcase classname="com.aspire.testscases.RegistrationTest" name="Verify input sms verification code"><error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@2dd8ff1d (tried for 5 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@2dd8ff1d (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@2dd8ff1d (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown
+com.aspire.pages.OTPVerificationPage.verifyEmailVerificationPage(OTPVerificationPage.java:30)
+com.aspire.testscases.RegistrationTest.verifyInputSmsVerificationCode(RegistrationTest.java:66)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+</system-err></testcase></testsuite>

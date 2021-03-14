@@ -1,0 +1,14 @@
+com/aspire/pages/DatePicker.class
+com/aspire/pages/RegistrationPage.class
+com/aspire/testscases/RegistrationTest.class
+com/aspire/pages/IdentifyDetailsPage.class
+com/aspire/pages/PersonalDetailsPage.class
+com/aspire/pages/MainPage.class
+com/aspire/pages/SMSVerificationPage.class
+com/aspire/base/BasePage.class
+com/aspire/pages/BusinessDetailsPage.class
+com/aspire/pages/BusinessInCorporationPage.class
+com/aspire/base/BaseTest.class
+com/aspire/pages/MidleNavigationPage.class
+com/aspire/pages/PersonViewPage.class
+com/aspire/pages/BasePage.class

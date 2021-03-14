@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.aspire.testscases.RegistrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.855 s <<< FAILURE! - in com.aspire.testscases.RegistrationTest
+com.aspire.testscases.RegistrationTest.verifyInputSmsVerificationCode  Time elapsed: 11.919 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at challenge@1.0-SNAPSHOT/com.aspire.testscases.RegistrationTest.verifyInputSmsVerificationCode(RegistrationTest.java:46)
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for By.xpath: //button[@type='submit'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:b057:17c6:fb2a:5961%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at challenge@1.0-SNAPSHOT/com.aspire.testscases.RegistrationTest.verifyInputSmsVerificationCode(RegistrationTest.java:46)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.aspire.testscases.RegistrationTest" skipped="0" tests="1" time="46.47" timestamp="2021-03-15 02:53:24"><testcase classname="com.aspire.testscases.RegistrationTest" name="B register personal details"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
+com.aspire.pages.PersonalDetailsPage.selectNationality(PersonalDetailsPage.java:87)
+com.aspire.pages.PersonalDetailsPage.inputPersonalInformation(PersonalDetailsPage.java:49)
+com.aspire.testscases.RegistrationTest.b_registerPersonalDetails(RegistrationTest.java:57)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+</system-err></testcase></testsuite>

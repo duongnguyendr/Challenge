@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="com.aspire.testscases.RegistrationTest" skipped="0" tests="4" time="48.39" timestamp="2021-03-15 01:35:00"><testcase classname="com.aspire.testscases.RegistrationTest" name="A register account"/><testcase classname="com.aspire.testscases.RegistrationTest" name="B register personal details"><error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@805e72e (tried for 5 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@805e72e (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@805e72e (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown
+com.aspire.pages.OTPVerificationPage.verifyInputCodeSuccessfully(OTPVerificationPage.java:75)
+com.aspire.pages.OTPVerificationPage.inputVerificationCode(OTPVerificationPage.java:71)
+com.aspire.pages.OTPVerificationPage.verifySMSOTPCode(OTPVerificationPage.java:39)
+com.aspire.testscases.RegistrationTest.b_registerPersonalDetails(RegistrationTest.java:53)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+</system-err></testcase><testcase classname="com.aspire.testscases.RegistrationTest" name="C register business details"><error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@762a10b6 (tried for 5 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@762a10b6 (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@762a10b6 (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown
+com.aspire.pages.OTPVerificationPage.verifyInputCodeSuccessfully(OTPVerificationPage.java:75)
+com.aspire.pages.OTPVerificationPage.inputVerificationCode(OTPVerificationPage.java:71)
+com.aspire.pages.OTPVerificationPage.verifySMSOTPCode(OTPVerificationPage.java:39)
+com.aspire.testscases.RegistrationTest.c_registerBusinessDetails(RegistrationTest.java:65)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+</system-err></testcase><testcase classname="com.aspire.testscases.RegistrationTest" name="D verification with identity details"><error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@5a6f6cac (tried for 5 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@5a6f6cac (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$7@5a6f6cac (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nguyens-MacBook-Pro.local', ip: '2001:ee0:5006:94f0:844b:34ab:ab13:bfa3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: driver.version: unknown
+com.aspire.pages.OTPVerificationPage.verifyInputCodeSuccessfully(OTPVerificationPage.java:75)
+com.aspire.pages.OTPVerificationPage.inputVerificationCode(OTPVerificationPage.java:71)
+com.aspire.pages.OTPVerificationPage.verifySMSOTPCode(OTPVerificationPage.java:39)
+com.aspire.testscases.RegistrationTest.d_verificationWithIdentityDetails(RegistrationTest.java:75)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+</system-err></testcase></testsuite>
