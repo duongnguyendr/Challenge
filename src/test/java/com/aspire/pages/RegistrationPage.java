@@ -31,7 +31,7 @@ public class RegistrationPage extends PageObject{
 	
 	private static String TERM_AND_CONDIRIONS = "//div[contains(@class,'register-step-person__privacy')]//div[@class='q-checkbox__bg absolute']";
 
-//	private static String CONTINUE_BUTTON = "//button[@type='submit']";
+	private static final String FLAG_BTN = "//label[contains(@class, 'flag-select')]";
 	
 	
 	@Step("Input Register Form")
@@ -55,6 +55,7 @@ public class RegistrationPage extends PageObject{
 	}
 	
 	public void inputPhoneNumber(String phoneNumber) {
+		find(By.xpath(FLAG_BTN)).click();
 		find(By.xpath(PHONE_INPUT)).sendKeys(phoneNumber);
 	}
 	
