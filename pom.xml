@@ -13,6 +13,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>2.3.2</serenity.version>
+		<included.packages>-Dincluded.packages=com.google</included.packages>
+		<included.adapters>-Dincluded.adapters=coverage:complexity:dependency</included.adapters>
     </properties>
 
     <repositories>
