@@ -46,37 +46,37 @@ public class RegistrationTest extends BaseTest{
 		oTPVerificationPage.inputVerificationCode(TestData.OTP_CODE);
 	}
 	
-	@Test
-	@Screenshots
-	public void b_registerPersonalDetails() {
-		mainPage.loginWithPhoneNumber(TestData.PHONE_NUMBER);
-		oTPVerificationPage.verifySMSOTPCode(TestData.PHONE_NUMBER, TestData.OTP_CODE);
-		navigationPage.navigateToPersonalDetailPage();
-		personalDetailPage.verifyPersonalDetailsPage();
-		personalDetailPage.verifyPersonalDetailsPageWithCorrectInfo(TestData.FULL_NAME, TestData.PHONE_NUMBER, TestData.EMAIL);
-		personalDetailPage.inputPersonalInformation(TestData.ID_CARD, TestData.DATE_OF_BIRTH, TestData.NATIONALITY, TestData.GENDER, TestData.PURPOSES);
-		oTPVerificationPage.verifyEmailOTPCode(TestData.EMAIL, TestData.OTP_CODE);
-	}
-	
-	@Test
-	@Screenshots
-	public void c_registerBusinessDetails() {
-		mainPage.loginWithPhoneNumber(TestData.PHONE_NUMBER);
-		oTPVerificationPage.verifySMSOTPCode(TestData.PHONE_NUMBER, TestData.OTP_CODE);
-		navigationPage.clickGetStartedButton();
-		businessDetailPage.verifyBusinessDetailsPage();
-		businessDetailPage.inputBusinessDetails(TestData.COMPANY_NAME, TestData.REGISTRATION_TYPE, TestData.UEN_NUMBER, TestData.INDUSTRY, TestData.SUB_INDUSTRY);
-	}
-	
-	@Test
-	@Screenshots
-	public void d_verificationWithIdentityDetails() {
-		mainPage.loginWithPhoneNumber(TestData.PHONE_NUMBER);
-		oTPVerificationPage.verifySMSOTPCode(TestData.PHONE_NUMBER, TestData.OTP_CODE);
-		navigationPage.clickGetStartedButton();
-		navigationPage.clickBeginVerification();
-		identityDetailPage.verifyKTPStep(TestData.KTP_IMAGE);
-		basePage.verifyRegisterAccountSuccessfully();
-	}
+//	@Test
+//	@Screenshots
+//	public void b_registerPersonalDetails() {
+//		mainPage.loginWithPhoneNumber(TestData.PHONE_NUMBER);
+//		oTPVerificationPage.verifySMSOTPCode(TestData.PHONE_NUMBER, TestData.OTP_CODE);
+//		navigationPage.navigateToPersonalDetailPage();
+//		personalDetailPage.verifyPersonalDetailsPage();
+//		personalDetailPage.verifyPersonalDetailsPageWithCorrectInfo(TestData.FULL_NAME, TestData.PHONE_NUMBER, TestData.EMAIL);
+//		personalDetailPage.inputPersonalInformation(TestData.ID_CARD, TestData.DATE_OF_BIRTH, TestData.NATIONALITY, TestData.GENDER, TestData.PURPOSES);
+//		oTPVerificationPage.verifyEmailOTPCode(TestData.EMAIL, TestData.OTP_CODE);
+//	}
+//	
+//	@Test
+//	@Screenshots
+//	public void c_registerBusinessDetails() {
+//		mainPage.loginWithPhoneNumber(TestData.PHONE_NUMBER);
+//		oTPVerificationPage.verifySMSOTPCode(TestData.PHONE_NUMBER, TestData.OTP_CODE);
+//		navigationPage.clickGetStartedButton();
+//		businessDetailPage.verifyBusinessDetailsPage();
+//		businessDetailPage.inputBusinessDetails(TestData.COMPANY_NAME, TestData.REGISTRATION_TYPE, TestData.UEN_NUMBER, TestData.INDUSTRY, TestData.SUB_INDUSTRY);
+//	}
+//	
+//	@Test
+//	@Screenshots
+//	public void d_verificationWithIdentityDetails() {
+//		mainPage.loginWithPhoneNumber(TestData.PHONE_NUMBER);
+//		oTPVerificationPage.verifySMSOTPCode(TestData.PHONE_NUMBER, TestData.OTP_CODE);
+//		navigationPage.clickGetStartedButton();
+//		navigationPage.clickBeginVerification();
+//		identityDetailPage.verifyKTPStep(TestData.KTP_IMAGE);
+//		basePage.verifyRegisterAccountSuccessfully();
+//	}
 	
 }
